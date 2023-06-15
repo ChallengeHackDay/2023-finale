@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: 'plasma_drip_brkregular';
+    src: url('font/plasdrip/plasdrip-webfont.woff2') format('woff2'),
+         url('font/plasdrip/plasdrip-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'plasma_drip_empty_brkregular';
+    src: url('font/plasdrpe/plasdrpe-webfont.woff2') format('woff2'),
+         url('font/plasdrpe/plasdrpe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	
+    width: 900px;
+    margin: auto;
+    background-color: orange;
+}
+
+table tr td button
+{
+	border: solid black 3px;
+	background-color:  #af5efb;
+}
+
+table
+{
+	position: relative;
+	bottom: 50px;
+}
+
+h1
+{
+	font-family: plasma_drip_brkregular;
+	font-size: 3.5em;
+}
+
+.bouton_rejouer
+{
+    border: solid black 3px;
+    border-radius: 4px;
+    width: 150px;
+    height: 70px;
+    background: linear-gradient(purple,blue);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.bouton_rejouer:hover
+{
+    color: orange;
+}
+
+.content
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 68%;
+
+}
+
+#advisor
+{
+    
+    margin-left: 24%;
+    font-family: Arial;
+
+}
+
+#advisor p
+{
+    font-style: italic;
+}
+
+#advisor form input
+{
+    margin-left: 10px;
+    border-radius: 5.5px;
+    border: solid black 3px;
+}
+
+#advisor label
+{
+    font-weight: bold;
+}
+
+#advisor button
+{
+    background-color: #f1a245;
+    width: 130px;
+    border-radius: 5.5px;
+    border: solid black 2px;
+    margin-top: 10px;
+}
+
+#advisor button:hover
+{
+    background-color: black;
+    color: white;
+}
